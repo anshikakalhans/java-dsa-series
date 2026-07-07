@@ -47,7 +47,23 @@ public class Loops {
 //            System.out.println(i);
 //        }
 
+        // while loop
+//        int i = 1;                     // initialization
+//        while (i <= 5) {              // condition
+//            System.out.println(i);
+//            i++;                     // update
+//        }
 
+        // nested while loop
+//        int i = 1;
+//        while (i <= 3) {
+//            int j = 1;
+//            while (j <= 3) {
+//                System.out.println("i = " + i + ", j = " + j);
+//                j++;
+//            }
+//            i++;
+//        }
     }
 }
 
