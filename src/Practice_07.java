@@ -123,4 +123,32 @@
 //    }
 //}
 
+// 9. Use do-while loop to print a menu at-least once.
+
+//import java.util.Scanner;
+//
+//public class Practice_07 {
+//    public static void main(String[] args) {
+//
+//        Scanner sc = new Scanner(System.in);
+//        int choice;
+//
+//        do {
+//            System.out.println("===== Menu =====");
+//            System.out.println("1. Start");
+//            System.out.println("2. Settings");
+//            System.out.println("3. Exit");
+//            System.out.println("Enter your choice: ");
+//
+//            choice = sc.nextInt();
+//        }
+//
+//        while (choice != 3);
+//        System.out.println("Exiting program...");
+//
+//    }
+//}
+
+
+
 
