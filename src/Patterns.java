@@ -327,67 +327,122 @@
 
 // 12. Hollow Diamond Pattern
 
+//public class Patterns {
+//    public static void main(String[] args) {
+//
+//        // Upper Part of Hollow Diamond
+//
+//        int n = 4;
+//
+//        for (int row = 1; row <= n; row++) {
+//
+//            // leading spaces
+//            for (int col = 1; col <= n - row; col++) {
+//                System.out.print("  ");
+//            }
+//
+//            //for each row ---> variable columns
+//            if (row == 1) {
+//                for (int col = 1; col <= (2 * row - 1); col++) {
+//                    System.out.print("* ");
+//                }
+//            } else {
+//                // middle rows
+//
+//                // 1*
+//                System.out.print("* ");
+//
+//                // spaces
+//                for (int col = 1; col <= (2 * row - 3); col++) {
+//                    System.out.print("  ");
+//                }
+//
+//                // 1*
+//                System.out.print("* ");
+//
+//            }
+//
+//            System.out.println();
+//
+//        }
+//
+//        // Lower Part of Hollow Diamond
+//
+//        for (int row = 1; row <= (n - 1); row++) {
+//
+//            // leading spaces
+//            for (int col = 1; col <= row; col++) {
+//                System.out.print("  ");
+//            }
+//
+//            if (row == (n - 1)) {
+//                System.out.print("* ");
+//            } else {
+//                // remaining rows
+//                // 1*
+//                System.out.print("* ");
+//
+//                // 2*(n-row)-3 spaces
+//                for (int col = 1; col <= (2 * (n - row) - 3); col++) {
+//                    System.out.print("  ");
+//                }
+//
+//                // 1*
+//                System.out.print("* ");
+//            }
+//
+//            System.out.println();
+//        }
+//    }
+//}
+
+// 13. Butterfly Pattern
+
 public class Patterns {
     public static void main(String[] args) {
 
-        // Upper Part of Hollow Diamond
-
         int n = 4;
+
+        // Part 1 Upper Half
 
         for (int row = 1; row <= n; row++) {
 
-            // leading spaces
-            for (int col = 1; col <= n - row; col++) {
+            // Part 1
+            for (int col = 1; col <= row; col++) {
+                System.out.print("* ");
+            }
+
+            // Part 2
+            for (int col = 1; col <= 2 * (n - row); col++) {
                 System.out.print("  ");
             }
 
-            //for each row ---> variable columns
-            if (row == 1) {
-                for (int col = 1; col <= (2 * row - 1); col++) {
-                    System.out.print("* ");
-                }
-            } else {
-                // middle rows
-
-                // 1*
+            // Part 3
+            for (int col = 1; col <= row; col++) {
                 System.out.print("* ");
-
-                // spaces
-                for (int col = 1; col <= (2 * row - 3); col++) {
-                    System.out.print("  ");
-                }
-
-                // 1*
-                System.out.print("* ");
-
             }
 
             System.out.println();
-
         }
 
-        // Lower Part of Hollow Diamond
+        // Part 2 Lower Half
 
-        for (int row = 1; row <= (n - 1); row++) {
+        for (int row = 1; row <= n; row++) {
 
-            // leading spaces
-            for (int col = 1; col <= row; col++) {
+            // Part 1
+            for (int col = 1; col <= n - row + 1; col++) {
+
+                System.out.print("* ");
+            }
+
+            // Part 2
+            for (int col = 1; col <= 2 * (row - 1); col++) {
                 System.out.print("  ");
             }
 
-            if (row == (n - 1)) {
-                System.out.print("* ");
-            } else {
-                // remaining rows
-                // 1*
-                System.out.print("* ");
+            // Part 3
+            for (int col = 1; col <= n - row + 1; col++) {
 
-                // 2*(n-row)-3 spaces
-                for (int col = 1; col <= (2 * (n - row) - 3); col++) {
-                    System.out.print("  ");
-                }
-
-                // 1*
                 System.out.print("* ");
             }
 
@@ -395,6 +450,13 @@ public class Patterns {
         }
     }
 }
+
+
+
+
+
+
+
 
 
 
