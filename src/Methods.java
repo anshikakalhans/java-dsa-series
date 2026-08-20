@@ -32,12 +32,15 @@
 //
 //    static void main() {
 //
-////        System.out.println("hie");
-////
-////        // method call/invoke
-////        print2KaTable();
-////
-////        System.out.println("bye");
+
+import org.w3c.dom.ls.LSOutput;
+
+/// /        System.out.println("hie");
+/// /
+/// /        // method call/invoke
+/// /        print2KaTable();
+/// /
+/// /        System.out.println("bye");
 //
 //        //printSum(5, 10); // argument declaration
 //
@@ -56,7 +59,98 @@
 //}
 
 
-
 // Methods and Variable Scoping
+
+
+// Practice Problems
+
+// 1. Create a method printWelcomeMessage() that prints a greeting.
+
+//class Methods {
+//    public static void printWelcomeMessage() {
+//        System.out.println("Welcome!");
+//
+//    }
+//
+//    public static void main() {
+//        printWelcomeMessage();
+//
+//    }
+//}
+
+// 2. Create a method add (int a, int b) that returns the sum.
+
+//class Methods {
+//    public static int add(int a, int b) {
+//        return a + b;
+//
+//    }
+//
+//    static void main(String[] args) {
+//        int result = add(5, 3);
+//        System.out.println(result);
+//
+//    }
+//}
+
+// 3. Create a method isEven(int Number) that returns true if number is even.
+
+//class Methods {
+//    static boolean isEven(int num) {
+//        if (num % 2 == 0) {
+//            return true;
+//        }
+//        return false;
+//
+//    }
+//
+//    public static void main(String[] args) {
+//        System.out.println(isEven(6));
+//        System.out.println(isEven(7));
+//        System.out.println(isEven(10));
+//
+//    }
+//}
+
+// 4. Create a method getMaximum(int a, int b) that returns the larger number.
+
+//class Methods {
+//    static int getMaximum(int a, int b) {
+//        if (a > b) {
+//            return a;
+//        }
+//        return b;
+//
+//    }
+//
+//    static void main(String[] args) {
+//        int num = getMaximum(4, 32);
+//        System.out.println("Larger number is: " + num);
+//
+//    }
+//
+//}
+
+// 5. Create a method calculatePercentage(int obtained, int total).
+
+//class Methods {
+//    static float calculatePercentage(int obtained, int total) {
+//        float percentage = ((float) obtained / total) * 100;
+//        return percentage;
+//    }
+//
+//    static void main(String[] args) {
+//        float total_percentage = calculatePercentage(490, 500);
+//        System.out.println("Total Percentage: " + total_percentage);
+//
+//    }
+//}
+
+
+
+
+
+
+
 
 
