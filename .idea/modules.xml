@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaDSASeries.iml" filepath="$PROJECT_DIR$/JavaDSASeries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class/class.iml" filepath="$PROJECT_DIR$/class/class.iml" />
+      <module fileurl="file://D:/SEM 3/Competitive Coding/class code/class code.iml" filepath="D:/SEM 3/Competitive Coding/class code/class code.iml" />
     </modules>
   </component>
 </project>
