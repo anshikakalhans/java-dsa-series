@@ -282,6 +282,66 @@
 //    }
 //}
 
+// Find sum of each row.
+
+//class Arrays {
+//    static void main() {
+//
+//        int arr[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+//
+//        for (int i = 0; i < arr.length; i++) {
+//
+//            int sum = 0;
+//
+//            for (int j = 0; j < arr.length; j++) {
+//                sum += arr[i][j];
+//            }
+//
+//            System.out.println("Row " + i + " sum = " + sum);
+//        }
+//    }
+//}
+
+// Column-wise Sum
+
+//class Arrays {
+//    static void main() {
+//
+//        int matrix[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+//
+//        for (int j = 0; j < matrix.length; j++) { // outer loop ---> column
+//
+//            int sum = 0;
+//
+//            for (int i = 0; i < matrix.length; i++) { // inner loop ---> row
+//                sum += matrix[i][j];
+//            }
+//
+//            System.out.println("Column " + j + " sum = " + sum);
+//        }
+//    }
+//}
+
+// Transpose of Matrix
+
+//class Arrays {
+//    static void main() {
+//
+//        int[][] matrix = {{1, 2, 3}, {4, 5, 6}};
+//
+//        for (int j = 0; j < matrix[0].length; j++) {
+//
+//            for (int i = 0; i < matrix.length; i++) {
+//
+//                System.out.print(matrix[i][j] + " ");
+//            }
+//
+//            System.out.println();
+//        }
+//    }
+//}
+
+
 
 
 
