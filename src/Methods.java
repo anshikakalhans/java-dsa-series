@@ -146,6 +146,41 @@ import org.w3c.dom.ls.LSOutput;
 //    }
 //}
 
+// Create an Overloaded method Display() with one Int Parameter() or one String Parameter().
+
+//class methodOverLoading {
+//    static void display(int x) { //yaha display() overloaded hai kyuki same method name hai but diff. parameter types
+//        System.out.println("Integer x: " + x);
+//    }
+//
+//    static void display(String x) {
+//        System.out.println("String x: " + x);
+//
+//    }
+//
+//    static void main() {
+//        display(10);
+//        display("hello");
+//    }
+//}
+
+// Write a method updateValue(int x) and verify that the original variable in main() does not change.
+
+//class PassByValue {
+//    static void updatevalue(int x) {
+//        x = 100;
+//        System.out.println("Value Inside method: " + x);
+//    }
+//
+//    static void main() {
+//        int x = 10;
+//        System.out.println("Before Method Call: " + x);
+//
+//        updatevalue(x);
+//
+//        System.out.println("After Method Call: " + x);
+//    }
+//}
 
 
 
